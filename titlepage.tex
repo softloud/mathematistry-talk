@@ -1,0 +1,31 @@
+\setbeamertemplate{title page}
+{
+\vfill
+
+\begingroup
+
+\vfill
+
+\inserttitle
+
+\titlegraphic{
+\vspace{-5cm}
+\begin{tikzpicture}
+% nodes
+\node [ style = hassenode] (f) {};
+\node[style = hassenode] (g) at (-1, -1) {};
+\node [style = hassenode] (h) at (1, -1) {};
+\node [style = hassenode, gray] (i) at (0, -2) {};
+
+%  edges
+\draw [dotted] (f) to (g);
+\draw (g)  to (i);
+\draw [dotted] (i) to (h);
+\draw (h) to (f);
+
+\end{tikzpicture}
+}
+
+
+}
+
