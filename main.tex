@@ -3,7 +3,9 @@
 \usepackage{musicography}
 \usepackage{graphicx}
 
-
+% images
+\usepackage[export]{adjustbox}
+\usepackage{caption}
 
 %% doc deets
 \title{The Order of Mathematistry}
@@ -11,11 +13,6 @@
 \titlegraphic{
 %\vspace{-5cm}
 \begin{tikzpicture}[scale=0.8]
-
-
-% images
-\usepackage[export]{adjustbox}
-\usepackage{caption}
 
 % nodes
 \node [ style = hassenode] (f) {};
@@ -65,16 +62,16 @@
 
 
 % beamer specs
-\beamertemplatenavigationsymbolsempty
+\beamertemplatenavigationsymbolsempty{}
 \setbeamertemplate{footline}[frame number]
 
 \usefonttheme{serif}
-\setbeamercolor*{structure}{fg= darkgray} 
+\setbeamercolor*{structure}{fg= darkgray}
 
-%\setbeamercolor*{palette tertiary}{fg=black,bg=black!10} 
-%\setbeamercolor*{palette quaternary}{fg=black,bg=black!10} 
+%\setbeamercolor*{palette tertiary}{fg=black,bg=black!10}
+%\setbeamercolor*{palette quaternary}{fg=black,bg=black!10}
 
-%\setbeamercolor*{lower separation line head}{bg=orange} 
+%\setbeamercolor*{lower separation line head}{bg=orange}
 \AtBeginSection[]{\frame{\frametitle{Outline}%
 \tableofcontents[currentsection,hideothersubsections]}}%
 
@@ -166,24 +163,24 @@ Jean Rhys~\cite{rhys1992wide}
 \begin{frame}{Queering metascience}
 
     \begin{quote}
-        So let’s build an open and reproducible science as a queer reimagining of science and not a small perturbation of the world that is. Such a system will never be perfect. 
+        So let’s build an open and reproducible science as a queer reimagining of science and not a small perturbation of the world that is. Such a system will never be perfect.
     \end{quote}
 
 \begin{flushright}
--- Dan Simpson~\cite{simpson_what_2019}    
+-- Dan Simpson~\cite{simpson_what_2019}
 \end{flushright}
-    
+
 \end{frame}
 
 \begin{frame}{Preregistration is redundant, at best}
 
-The Centre for Open Science defines preregistration as `specifying' the research plan in advance~\cite{centre_for_open_science_preregistration_2020}.
+The Centre for Open Science defines \textbf{preregistration} as specifying the research plan in advance~\cite{centre_for_open_science_preregistration_2020}.
 
-\bigskip
+\vspace{1cm}
 
 2019: Preregistration is Hard, and Worthwhile, Nosek \emph{et al.}~\cite{nosek_preregistration_2019}
 
-\bigskip
+\vspace{1cm}
 
 2019: Is Preregistration Worthwhile? Szollosi \emph{et al.}~\cite{szollosi_preregistration_2019}
 
@@ -193,17 +190,17 @@ The Centre for Open Science defines preregistration as `specifying' the research
 The diagonisticity of statistical tests depend entirely on how well statistical models map onto underlying theories, and so improving statistical techniques does little improve theories \underline{when the mapping is weak}~\cite{szollosi_preregistration_2019}.
 \end{quote}
 
-    
+
 \end{frame}
 
 \begin{frame}{Mathematistry}
-Navarro, a mathematical scientist specialising in psychology, redefines Box's term \textbf{mathematistry}~\cite{box_science_1976} to 
+Navarro, a mathematical scientist specialising in psychology, redefines Box's term \textbf{mathematistry}~\cite{box_science_1976} to
 
 \bigskip
 
 \begin{quote}
 `describe using formal tools to define a statistical problem that differs from the
-scientific one, solving the redefined problem, and declaring the scientific concern addressed'~\cite{navarro_between_2018}.    
+scientific one, solving the redefined problem, and declaring the scientific concern addressed'~\cite{navarro_between_2018}.
 \end{quote}
 
 \bigskip
@@ -326,44 +323,100 @@ We will think of \textbf{mathematistry} as the measure of strength of mapping to
 \end{center}
 
 
-% \end{frame}
+\end{frame}
 
-%\begin{frame}
+\begin{frame}{Heuristics of mathematistry}
 
 
-%\onslide<2> {
+% \onslide<2>
 
-\small{
-$$
-h: C \times M \to \begin{cases}
-                \{0, 1\} & \text{if heuristic categorises as effective or not;}\\
-                [0, 1] & \text{if heuristic measures efficacy on a spectrum;}\\
-                H & \text{if heuristic categorises efficacy otherwise},
-            \end{cases}
-$$
-}
-%}
+A heuristic can be thought of in terms of a mapping from \(C \times M\) to some space of measuring how well a pairing `furthers the process of scientific discovery' (Devezer \emph{et al., 2019})~\cite{devezerScientificDiscoveryModelcentric2019}.
+
+\vspace{2cm}
+
+\(\texttt{fpd}\) := furthers the process of scientific discovery
+
+
+\end{frame}
+
+\begin{frame}{Heuristics of mathematistry}
+  \begin{center}
+  \begin{tikzpicture}[scale = 0.9]
+  \begin{scope}
+
+  %  nodes
+  \node [style = hassenode] (a) at (0,0) {};
+  \node [style = hassenode] (b) at (0,-2) {};
+
+  % edges
+  \draw (a) to (b);
+  \end{scope}
+
+  %\end{tikzpicture}
+
+  %\begin{tikzpicture}
+
+  \begin{scope}[xshift=4cm]
+
+  % nodes
+  \node [style = hassenode, gray] (c) at (0,0) {};
+  \node [style = hassenode] (d) at (0,-1) {};
+  \node [style = hassenode, gray] (e) at (0, -2) {};
+
+  % edges
+  \draw [dotted] (c) to (d);
+  \draw [dotted] (d) to (e);
+  \end{scope}
+
+  \begin{scope}[xshift=8cm]
+
+  % nodes
+  \node [ style = hassenode] (f) {};
+  \node[style = hassenode] (g) at (-1, -1) {};
+  \node [style = hassenode] (h) at (1, -1) {};
+  \node [style = hassenode, gray] (i) at (0, -2) {};
+
+  %  edges
+  \draw [dotted] (f) to (g);
+  \draw (g)  to (i);
+  \draw [dotted] (i) to (h);
+  \draw (h) to (f);
+
+  \end{scope}
+
+  \end{tikzpicture}
+  \end{center}
+
+  \small{
+  \[
+  h: C \times M \to \begin{cases}
+                  \{0, 1\} & \text{if \(\texttt{fpd}\) or not;}\\
+                  [0, 1] & \text{if \(\texttt{fpd}\) on a spectrum;}\\
+                  H & \text{if \(\texttt{fpd}\) otherwise}.
+              \end{cases}
+  \]
+  }
 
 \end{frame}
 
 
 \begin{frame}{Heuristics of mathematistry}
 
-Let $C$ denote the set of all possible \textbf{scientific claims} for which we might provide evidence of, with a scientific method or procedure.
+Let \(C\) denote the set of all possible \textbf{scientific claims} for which we might provide evidence of, with a scientific method or procedure.
 
 \bigskip
 
-Let $M$ denote the set of all possible \textbf{scientific methods} that can be used to provide evidence of scientific claims.
+Let \(M\) denote the set of all possible \textbf{scientific methods} that can be used to provide evidence of scientific claims.
 
-\bigskip 
+\bigskip
 
-The product $C \times M$ denotes the collection of possible \textbf{pairings of claim and methodology}. 
+The product \(C \times M\) denotes the collection of possible \textbf{pairings of claim and methodology}.
 
 \end{frame}
 
 \begin{frame}{Heuristic of mathematistry}
 
-\begin{definition} A \textbf{heuristic $h$ of mathematistry} measures the efficacy of a pairing $(c,m)$ of scientific claim $c \in C$, and method  $m \in M$ of providing evidence of that claim, measuring how effective method $m$ is at scientifically informing claim $c$.
+\begin{definition} A \textbf{heuristic \(h\) of mathematistry} measures the efficacy of a pairing \((c,m)\) of scientific claim \(c \in C\), and method  \(m \in M\) of providing evidence of that claim, measuring how effective method \(m\) is at scientifically informing claim \(c\).
 
 \vspace{1cm}
 
@@ -419,7 +472,7 @@ We denote $\mathbb H$ to be the set of all possible heuristics of mathematistry.
 \end{scope}
 
 \end{tikzpicture}
-\end{center}    
+\end{center}
 
 \bigskip
 
@@ -447,7 +500,7 @@ Let $(c_1, m_1) \to_h (c_2, m_2)$ if and only if $h(c_1, m_1) \leqslant h(c_2, m
 \end{definition}
 
 
-    
+
 \end{frame}
 
 
@@ -492,15 +545,15 @@ When a binary relation satisfies (i) reflexivity and (iii) transitivity, but not
  \end{frame}
 
 \begin{frame}{A quasi-order of mathematistry}
- 
+
  \begin{definition}
  When a binary relation satisfies (i) reflexivity and (iii) transitivity, but not (ii) antisymmetry, we say it is a \textbf{quasi-order}.
  \end{definition}
- 
+
 \vspace{1cm}
- 
+
  Let $\mathcal X \subseteq C \times M$ denote the subset $\mathcal X$ of reasonable pairings $C \times M$ of claims and methods.
- 
+
  \bigskip
 
     \begin{lemma}\label{lem:quasi}
@@ -514,7 +567,7 @@ The relation $\to_h$ is a quasi-order on $\mathcal X$.
 
 %%%% Order of Mathematistry
 \begin{frame}{The Order of Mathematistry}
-    
+
 \end{frame}
 
 %%% biblio

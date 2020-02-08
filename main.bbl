@@ -1,0 +1,548 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{box_science_1976}{article}{}
+      \name{author}{1}{}{%
+        {{hash=55911e7dd73a9ab7592c871dd1115249}{%
+           family={Box},
+           familyi={B\bibinitperiod},
+           given={George\bibnamedelimb E.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{55911e7dd73a9ab7592c871dd1115249}
+      \strng{fullhash}{55911e7dd73a9ab7592c871dd1115249}
+      \strng{bibnamehash}{55911e7dd73a9ab7592c871dd1115249}
+      \strng{authorbibnamehash}{55911e7dd73a9ab7592c871dd1115249}
+      \strng{authornamehash}{55911e7dd73a9ab7592c871dd1115249}
+      \strng{authorfullhash}{55911e7dd73a9ab7592c871dd1115249}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0162-1459, 1537-274X}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{month}{12}
+      \field{number}{356}
+      \field{title}{Science and {Statistics}}
+      \field{urlday}{15}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{volume}{71}
+      \field{year}{1976}
+      \field{urldateera}{ce}
+      \field{pages}{791\bibrangedash 799}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1080/01621459.1976.10480949
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/01621459.1976.10480949
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/01621459.1976.10480949
+      \endverb
+    \endentry
+    \entry{bronte2000jane}{book}{}
+      \name{author}{1}{}{%
+        {{hash=91ad5fdabc58cb935ff6ed5ed01d9f13}{%
+           family={Brontë},
+           familyi={B\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OUP Oxford}%
+      }
+      \strng{namehash}{91ad5fdabc58cb935ff6ed5ed01d9f13}
+      \strng{fullhash}{91ad5fdabc58cb935ff6ed5ed01d9f13}
+      \strng{bibnamehash}{91ad5fdabc58cb935ff6ed5ed01d9f13}
+      \strng{authorbibnamehash}{91ad5fdabc58cb935ff6ed5ed01d9f13}
+      \strng{authornamehash}{91ad5fdabc58cb935ff6ed5ed01d9f13}
+      \strng{authorfullhash}{91ad5fdabc58cb935ff6ed5ed01d9f13}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{jane eyre}
+      \field{year}{2000}
+    \endentry
+    \entry{davey_introduction_2002-1}{book}{}
+      \name{author}{2}{}{%
+        {{hash=61ff2d1f4596c809397bd28ec7e10094}{%
+           family={Davey},
+           familyi={D\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8bbcad32e4dca3ed1ba37e945d517e7b}{%
+           family={Priestley},
+           familyi={P\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{44893d0e837cb362345ca056b37aaf2c}
+      \strng{fullhash}{44893d0e837cb362345ca056b37aaf2c}
+      \strng{bibnamehash}{44893d0e837cb362345ca056b37aaf2c}
+      \strng{authorbibnamehash}{44893d0e837cb362345ca056b37aaf2c}
+      \strng{authornamehash}{44893d0e837cb362345ca056b37aaf2c}
+      \strng{authorfullhash}{44893d0e837cb362345ca056b37aaf2c}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This new edition of Introduction to Lattices and Order presents a radical reorganization and updating, though its primary aim is unchanged. The explosive development of theoretical computer science in recent years has, in particular, influenced the book's evolution: a fresh treatment of fixpoints testifies to this and Galois connections now feature prominently. An early presentation of concept analysis gives both a concrete foundation for the subsequent theory of complete lattices and a glimpse of a methodology for data analysis that is of commercial value in social science. Classroom experience has led to numerous pedagogical improvements and many new exercises have been added. As before, exposure to elementary abstract algebra and the notation of set theory are the only prerequisites, making the book suitable for advanced undergraduates and beginning graduate students. It will also be a valuable resource for anyone who meets ordered structures.}
+      \field{isbn}{978-0-521-78451-1}
+      \field{month}{4}
+      \field{note}{Google-Books-ID: vVVTxeuiyvQC}
+      \field{title}{Introduction to {Lattices} and {Order}}
+      \field{year}{2002}
+      \keyw{Mathematics / Algebra / Abstract,Mathematics / Algebra / General,Mathematics / Combinatorics,Mathematics / Discrete Mathematics,Mathematics / Logic}
+    \endentry
+    \entry{devezerScientificDiscoveryModelcentric2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a361f646308681870d5bcf12cde4c359}{%
+           family={Devezer},
+           familyi={D\bibinitperiod},
+           given={Berna},
+           giveni={B\bibinitperiod}}}%
+        {{hash=64c95dc4f688e5c6c89e0ee86802db44}{%
+           family={Nardin},
+           familyi={N\bibinitperiod},
+           given={Luis\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2b8db04923d6e1072631248d6cb94d82}{%
+           family={Baumgaertner},
+           familyi={B\bibinitperiod},
+           given={Bert},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3f0bd4a883ca855f729313ebfb7f1956}{%
+           family={Buzbas},
+           familyi={B\bibinitperiod},
+           given={Erkan\bibnamedelima Ozge},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a8b5657121cbeac00ac5ef6e8967d065}
+      \strng{fullhash}{9dcf598800ce8179f341fd95ef4f0acc}
+      \strng{bibnamehash}{a8b5657121cbeac00ac5ef6e8967d065}
+      \strng{authorbibnamehash}{a8b5657121cbeac00ac5ef6e8967d065}
+      \strng{authornamehash}{a8b5657121cbeac00ac5ef6e8967d065}
+      \strng{authorfullhash}{9dcf598800ce8179f341fd95ef4f0acc}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Scientific Discovery in a Model-Centric Framework}
+      \field{title}{Scientific Discovery in a Model-Centric Framework: {{Reproducibility}}, Innovation, and Epistemic Diversity}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{e0216125}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0216125
+      \endverb
+      \verb{file}
+      \verb /home/cantabile/Zotero/storage/IWGSS6CT/Devezer et al. - 2019 - Scientific discovery in a model-centric framework.pdf;/home/cantabile/Zotero/storage/HV729IMQ/article.html
+      \endverb
+      \keyw{Markov models,Replication studies,Reproducibility,Scientists,Species diversity,Statistical data,Statistical theories,Stochastic processes}
+    \endentry
+    \entry{navarro_between_2018}{report}{}
+      \name{author}{1}{}{%
+        {{hash=2abd3e60f0ec8addeb585e07eeb220c2}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PsyArXiv}%
+      }
+      \strng{namehash}{2abd3e60f0ec8addeb585e07eeb220c2}
+      \strng{fullhash}{2abd3e60f0ec8addeb585e07eeb220c2}
+      \strng{bibnamehash}{2abd3e60f0ec8addeb585e07eeb220c2}
+      \strng{authorbibnamehash}{2abd3e60f0ec8addeb585e07eeb220c2}
+      \strng{authornamehash}{2abd3e60f0ec8addeb585e07eeb220c2}
+      \strng{authorfullhash}{2abd3e60f0ec8addeb585e07eeb220c2}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Discussions of model selection in the psychological literature typically frame the issues as a question of statistical inference, with the goal being to determine which model makes the best predictions about data. Within this setting, advocates of leave-one-out cross-validation and Bayes factors disagree on precisely which prediction problem model selection questions should aim to answer. In this comment, I discuss some of these issues from a scientific perspective. What goal does model selection serve when all models are known to be systematically wrong? How might "toy problems" tell a misleading story? How does the scientific goal of explanation align with (or differ from) traditional statistical concerns? I do not offer answers to these questions, but hope to highlight the reasons why psychological researchers cannot avoid asking them.}
+      \field{month}{10}
+      \field{shorttitle}{Between the devil and the deep blue sea}
+      \field{title}{Between the devil and the deep blue sea: {Tensions} between scientific judgement and statistical model selection}
+      \field{type}{preprint}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.31234/osf.io/39q8y
+      \endverb
+      \verb{urlraw}
+      \verb https://osf.io/39q8y
+      \endverb
+      \verb{url}
+      \verb https://osf.io/39q8y
+      \endverb
+    \endentry
+    \entry{nosek_preregistration_2019}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8c22712bcd73f0bef49c53a3169ad281}{%
+           family={Nosek},
+           familyi={N\bibinitperiod},
+           given={Brian\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=16cc268571e7ab70306e88dc38aa9d39}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Emorie\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f8cdd0f9dc428d0008bed4f43fdcb332}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Lorne},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9c7c4541ff766f3f95344fce6283b1b8}{%
+           family={Flake},
+           familyi={F\bibinitperiod},
+           given={Jessica\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1b12ee75415fc35bfd5cd8f2720ec75d}{%
+           family={Hardwicke},
+           familyi={H\bibinitperiod},
+           given={Tom\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6d707ce93a456ebed6d4fe60e2544c0a}{%
+           family={Mellor},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2c7b34b126359a959aae0d3a6976d7a9}{%
+           family={’t\bibnamedelima Veer},
+           familyi={’\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Anna\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=4510ac4cca77c1f403675c713706be37}{%
+           family={Vazire},
+           familyi={V\bibinitperiod},
+           given={Simine},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4a434372f643a5ffc2417a73e46af215}
+      \strng{fullhash}{7769caafa1c5701ae97acc4c7f090b23}
+      \strng{bibnamehash}{4a434372f643a5ffc2417a73e46af215}
+      \strng{authorbibnamehash}{4a434372f643a5ffc2417a73e46af215}
+      \strng{authornamehash}{4a434372f643a5ffc2417a73e46af215}
+      \strng{authorfullhash}{7769caafa1c5701ae97acc4c7f090b23}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Preregistration clarifies the distinction between planned and unplanned research by reducing unnoticed flexibility. This improves credibility of findings and calibration of uncertainty. However, making decisions before conducting analyses requires practice. During report writing, respecting both what was planned and what actually happened requires good judgment and humility in making claims.}
+      \field{issn}{1364-6613}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Preregistration {Is} {Hard}, {And} {Worthwhile}}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{volume}{23}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{815\bibrangedash 818}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.tics.2019.07.009
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1364661319301846
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1364661319301846
+      \endverb
+      \keyw{confirmatory research,exploratory research,preregistration,reproducibility,transparency}
+    \endentry
+    \entry{centre_for_open_science_preregistration_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c94bbc9972dc533242c3793a0e09ba33}{%
+           family={Open\bibnamedelima Science},
+           familyi={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Centre},
+           giveni={C\bibinitperiod},
+           prefix={for},
+           prefixi={f\bibinitperiod}}}%
+      }
+      \strng{namehash}{c94bbc9972dc533242c3793a0e09ba33}
+      \strng{fullhash}{c94bbc9972dc533242c3793a0e09ba33}
+      \strng{bibnamehash}{c94bbc9972dc533242c3793a0e09ba33}
+      \strng{authorbibnamehash}{c94bbc9972dc533242c3793a0e09ba33}
+      \strng{authornamehash}{c94bbc9972dc533242c3793a0e09ba33}
+      \strng{authorfullhash}{c94bbc9972dc533242c3793a0e09ba33}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Preregistration}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cos.io/prereg/
+      \endverb
+      \verb{url}
+      \verb https://cos.io/prereg/
+      \endverb
+    \endentry
+    \entry{rhys1992wide}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9441e14b7d64442723d01094031257f0}{%
+           family={Rhys},
+           familyi={R\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WW Norton \& Company}%
+      }
+      \strng{namehash}{9441e14b7d64442723d01094031257f0}
+      \strng{fullhash}{9441e14b7d64442723d01094031257f0}
+      \strng{bibnamehash}{9441e14b7d64442723d01094031257f0}
+      \strng{authorbibnamehash}{9441e14b7d64442723d01094031257f0}
+      \strng{authornamehash}{9441e14b7d64442723d01094031257f0}
+      \strng{authorfullhash}{9441e14b7d64442723d01094031257f0}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wide sargasso sea}
+      \field{year}{1992}
+    \endentry
+    \entry{simpson_what_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7f4841dadfca5d467f9a7f8f2f57cd89}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Dan\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f4841dadfca5d467f9a7f8f2f57cd89}
+      \strng{fullhash}{7f4841dadfca5d467f9a7f8f2f57cd89}
+      \strng{bibnamehash}{7f4841dadfca5d467f9a7f8f2f57cd89}
+      \strng{authorbibnamehash}{7f4841dadfca5d467f9a7f8f2f57cd89}
+      \strng{authornamehash}{7f4841dadfca5d467f9a7f8f2f57cd89}
+      \strng{authorfullhash}{7f4841dadfca5d467f9a7f8f2f57cd89}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What if it’s never decorative gourd season? « {Statistical} {Modeling}, {Causal} {Inference}, and {Social} {Science}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://statmodeling.stat.columbia.edu/2019/11/13/what-if-its-never-decorative-gourd-season/
+      \endverb
+      \verb{url}
+      \verb https://statmodeling.stat.columbia.edu/2019/11/13/what-if-its-never-decorative-gourd-season/
+      \endverb
+    \endentry
+    \entry{szollosi_preregistration_2019}{report}{}
+      \name{author}{7}{}{%
+        {{hash=b39b06684b495cb8200f1b05310b5a7c}{%
+           family={Szollosi},
+           familyi={S\bibinitperiod},
+           given={Aba},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b463e90db057dbe7f1d7f0ec92149ad}{%
+           family={Kellen},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2abd3e60f0ec8addeb585e07eeb220c2}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ee4015792ca9d0fc867ec7b1d8210981}{%
+           family={Shiffrin},
+           familyi={S\bibinitperiod},
+           given={Rich},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fe2f7ac50a40813da0e74a7962c5964e}{%
+           family={Rooij},
+           familyi={R\bibinitperiod},
+           given={Iris},
+           giveni={I\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=f2ba4a859bfbb7108b2a83848f9bdc19}{%
+           family={Van\bibnamedelima Zandt},
+           familyi={V\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Trisha},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d7df6d8374e3a060846600ad56497339}{%
+           family={Donkin},
+           familyi={D\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PsyArXiv}%
+      }
+      \strng{namehash}{3ec909480bf0454eaa875dd135bc8fdd}
+      \strng{fullhash}{a754ca42ce61fa512b032eebc4674dbd}
+      \strng{bibnamehash}{3ec909480bf0454eaa875dd135bc8fdd}
+      \strng{authorbibnamehash}{3ec909480bf0454eaa875dd135bc8fdd}
+      \strng{authornamehash}{3ec909480bf0454eaa875dd135bc8fdd}
+      \strng{authorfullhash}{a754ca42ce61fa512b032eebc4674dbd}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The key implication argued by proponents of preregistration is that it improves the diagnosticity of statistical tests [1]. In the strong version of this argument, preregistration does this by solving statistical problems, such as family-wise error rates. In the weak version, it nudges people to think more deeply about their theories, methods, and analyses. We argue against both: the diagnosticity of statistical tests depend entirely on how well statistical models map onto underlying theories, and so improving statistical techniques does little to improve theories when the mapping is weak. There is also little reason to expect that preregistration will spontaneously help researchers to develop better theories (and, hence, better methods and analyses).}
+      \field{month}{10}
+      \field{title}{Preregistration is redundant, at best}
+      \field{type}{preprint}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.31234/osf.io/x36pz
+      \endverb
+      \verb{urlraw}
+      \verb https://osf.io/x36pz
+      \endverb
+      \verb{url}
+      \verb https://osf.io/x36pz
+      \endverb
+    \endentry
+    \entry{wilson_good_2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fda30198609a1ab29a82b93d4e8f347b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0f88b724c9f070dbceda00a5027d25bb}{%
+           family={Bryan},
+           familyi={B\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a79fa4e0923b252a711a37310ed57253}{%
+           family={Cranston},
+           familyi={C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=43698c36b205bdd65e89df3e8a106621}{%
+           family={Kitzes},
+           familyi={K\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fd85e07eb8018cd89be388380c4df3cf}{%
+           family={Nederbragt},
+           familyi={N\bibinitperiod},
+           given={Lex},
+           giveni={L\bibinitperiod}}}%
+        {{hash=44f8bed35a5b5f67b8dc602bf34e2070}{%
+           family={Teal},
+           familyi={T\bibinitperiod},
+           given={Tracy\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=04d2cc5e83ca1b7f6c6a65c4dfe5b065}{%
+           family={Ouellette},
+           familyi={O\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{fullhash}{ea3fdf6f8264eaf7a59e57459604f349}
+      \strng{bibnamehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{authorbibnamehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{authornamehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{authorfullhash}{ea3fdf6f8264eaf7a59e57459604f349}
+      \strng{editorbibnamehash}{04d2cc5e83ca1b7f6c6a65c4dfe5b065}
+      \strng{editornamehash}{04d2cc5e83ca1b7f6c6a65c4dfe5b065}
+      \strng{editorfullhash}{04d2cc5e83ca1b7f6c6a65c4dfe5b065}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1553-7358}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Good enough practices in scientific computing}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{e1005510}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1005510
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.plos.org/10.1371/journal.pcbi.1005510
+      \endverb
+      \verb{url}
+      \verb http://dx.plos.org/10.1371/journal.pcbi.1005510
+      \endverb
+      \keyw{dumpsterfire,measured.}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,8 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {british}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{A value judgement is, after all, an order}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Heuristics of mathematistry}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{The order of mathematistry}{16}{0}{3}
