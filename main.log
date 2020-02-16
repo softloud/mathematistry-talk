@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.8)  7 FEB 2020 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.8)  16 FEB 2020 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1807,7 +1807,7 @@ l.100 \end{frame}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<parchment.jpg, id=33, 513.92pt x 341.275pt>
+<parchment.jpg, id=53, 513.92pt x 341.275pt>
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
 Package pdftex.def Info: parchment.jpg  used on input line 100.
@@ -1822,12 +1822,12 @@ Package pdftex.def Info: parchment.jpg  used on input line 102.
  [2
 
 ]
-<Jane_Eyre_title_page.jpg, id=55, 82.1469pt x 132.7359pt>
+<Jane_Eyre_title_page.jpg, id=85, 82.1469pt x 132.7359pt>
 File: Jane_Eyre_title_page.jpg Graphic file (type jpg)
 <use Jane_Eyre_title_page.jpg>
 Package pdftex.def Info: Jane_Eyre_title_page.jpg  used on input line 161.
 (pdftex.def)             Requested size: 98.57576pt x 159.28227pt.
-<JeanRhys_WideSargassoSea.jpg, id=57, 191.9672pt x 291.33844pt>
+<JeanRhys_WideSargassoSea.jpg, id=87, 191.9672pt x 291.33844pt>
 File: JeanRhys_WideSargassoSea.jpg Graphic file (type jpg)
 <use JeanRhys_WideSargassoSea.jpg>
 Package pdftex.def Info: JeanRhys_WideSargassoSea.jpg  used on input line 161.
@@ -1946,30 +1946,65 @@ Package pdftex.def Info: parchment.jpg  used on input line 545.
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 566.
+Package pdftex.def Info: parchment.jpg  used on input line 562.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [19
 
-]
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 565.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [20
+
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 567.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [21
+
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 569.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [22
+
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
 Package pdftex.def Info: parchment.jpg  used on input line 571.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
- [20
+ [23
+
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 573.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [24
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 579.
+Package pdftex.def Info: parchment.jpg  used on input line 580.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
- [21
+ [25
+
+]
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 588.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [26
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 579.
+Package pdftex.def Info: parchment.jpg  used on input line 588.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
- [22
+ [27
 
 
 ]
@@ -1982,31 +2017,32 @@ Package pdftex.def Info: parchment.jpg  used on input line 579.
 \tf@snm=\write10
 \openout10 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 581.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 581.
- (/home/cantabile/Documents/repos/mathematistry-talk/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 581.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 581.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+
+(/home/cantabile/Documents/repos/mathematistry-talk/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C2749B52F479507EE144238BECD30BD6;289.
+(rerunfilecheck)             Checksum: FE33F37D62DA6DFAFC79698B2F3C8FC5;593.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40230 strings out of 492982
- 807533 string characters out of 6134896
- 1238619 words of memory out of 5000000
- 43052 multiletter control sequences out of 15000+600000
+ 40285 strings out of 492982
+ 808530 string characters out of 6134896
+ 1238620 words of memory out of 5000000
+ 43082 multiletter control sequences out of 15000+600000
  541702 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,16n,96p,10377b,2262s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/musixtex-fonts/musix11.pfb>
-Output written on /home/cantabile/Documents/repos/mathematistry-talk/main.pdf (22 pages, 351832 bytes).
+Output written on /home/cantabile/Documents/repos/mathematistry-talk/main.pdf (27 pages, 357242 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 338 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
