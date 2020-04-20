@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.8)  16 FEB 2020 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.8)  20 APR 2020 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1274,7 +1274,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\musEighth' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1585,10 +1593,26 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen311
+)) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
+\csq@reset=\count444
+\csq@gtype=\count445
+\csq@glevel=\count446
+\csq@qlevel=\count447
+\csq@maxlvl=\count448
+\csq@tshold=\count449
+\csq@ltx@everypar=\toks50
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/british.ldf
 Language: british 2017/06/06 v3.3r English support from the babel system
@@ -1596,24 +1620,24 @@ Language: british 2017/06/06 v3.3r English support from the babel system
 Language: english 2017/06/06 v3.3r English support from the babel system
  (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count444
+\babel@savecnt=\count450
 \U@D=\dimen312
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 LaTeX Info: Redefining \textlatin on input line 1839.
-\bbl@dirlevel=\count445
+\bbl@dirlevel=\count451
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thmtools.sty
 Package: thmtools 2014/04/21 v66
-\thmt@toks=\toks50
-\c@thmt@dummyctr=\count446
+\thmt@toks=\toks51
+\c@thmt@dummyctr=\count452
  (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-patch.sty
 Package: thm-patch 2014/04/21 v66
  (/usr/share/texlive/texmf-dist/tex/latex/thmtools/parseargs.sty
 Package: parseargs 2014/04/21 v66
-\@parsespec=\toks51
+\@parsespec=\toks52
 )) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-kv.sty
 Package: thm-kv 2014/04/21 v66
 Package thm-kv Info: Theorem names will be uppercased on input line 40.
@@ -1622,19 +1646,19 @@ Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 156.
 Package: thm-autoref 2014/04/21 v66
  (/usr/share/texlive/texmf-dist/tex/latex/thmtools/aliasctr.sty
 Package: aliasctr 2014/04/21 v66
- (/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty))) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-listof.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty))) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-listof.sty
 Package: thm-listof 2014/04/21 v66
 ) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-restate.sty
 Package: thm-restate 2014/04/21 v66
-)
-(/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
 Package: thm-amsthm 2014/04/21 v66
-\thmt@style@headstyle=\toks52
+\thmt@style@headstyle=\toks53
 ) (/usr/share/texlive/texmf-dist/tex/latex/thmtools/thm-beamer.sty
 Package: thm-beamer 2014/04/21 v66
 ))
-\c@proposition=\count447
-\c@defn=\count448
+\c@proposition=\count453
+\c@defn=\count454
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/british.lbx
@@ -1644,29 +1668,27 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 ))
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count449
-\@quotereset=\count450
-(/home/cantabile/Documents/repos/mathematistry-talk/main.aux)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'british'.
+ (/home/cantabile/Documents/repos/mathematistry-talk/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1704,17 +1726,17 @@ LaTeX Font Info:    ... okay on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count451
+\scratchcounter=\count455
 \scratchdimen=\dimen313
 \scratchbox=\box106
-\nofMPsegments=\count452
-\nofMParguments=\count453
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count454
+\nofMPsegments=\count456
+\nofMParguments=\count457
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count458
 \MPscratchDim=\dimen314
-\MPnumerator=\count455
-\makeMPintoPDFobject=\count456
-\everyMPtoPDFconversion=\toks54
+\MPnumerator=\count459
+\makeMPintoPDFobject=\count460
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1728,17 +1750,17 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box107
-Package hyperref Info: Link coloring OFF on input line 93.
+Package hyperref Info: Link coloring OFF on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count457
+\c@section@level=\count461
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
  (/home/cantabile/Documents/repos/mathematistry-talk/main.out) (/home/cantabile/Documents/repos/mathematistry-talk/main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1767,42 +1789,64 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (/home/cantabile/Documents/repos/mathematistry-talk/main.bbl)
-Package biblatex Info: Reference section=0 on input line 93.
-Package biblatex Info: Reference segment=0 on input line 93.
+Package biblatex Info: Reference section=0 on input line 95.
+Package biblatex Info: Reference segment=0 on input line 95.
  (/home/cantabile/Documents/repos/mathematistry-talk/main.nav)
-/home/cantabile/Documents/repos/mathematistry-talk/main.tex:100: Missing $ inserted.
+/home/cantabile/Documents/repos/mathematistry-talk/main.tex:104: Missing $ inserted.
 <inserted text> 
                 $
-l.100 \end{frame}
+l.104 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+/home/cantabile/Documents/repos/mathematistry-talk/main.tex:104: Missing } inserted.
+<inserted text> 
+                }
+l.104 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-/home/cantabile/Documents/repos/mathematistry-talk/main.tex:100: LaTeX Error: There's no line here to end.
+/home/cantabile/Documents/repos/mathematistry-talk/main.tex:104: Extra }, or forgotten $.
+<recently read> }
+                 
+l.104 \end{frame}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+/home/cantabile/Documents/repos/mathematistry-talk/main.tex:104: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \end{frame}
+l.104 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/home/cantabile/Documents/repos/mathematistry-talk/main.tex:100: Missing $ inserted.
+/home/cantabile/Documents/repos/mathematistry-talk/main.tex:104: Missing $ inserted.
 <inserted text> 
                 $
-l.100 \end{frame}
+l.104 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1810,14 +1854,14 @@ you left one out. Proceed, with fingers crossed.
 <parchment.jpg, id=53, 513.92pt x 341.275pt>
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 100.
+Package pdftex.def Info: parchment.jpg  used on input line 104.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/cantabile/Documents/repos/mathematistry-talk/parchment.jpg>] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 102.
+Package pdftex.def Info: parchment.jpg  used on input line 106.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [2
 
@@ -1825,186 +1869,211 @@ Package pdftex.def Info: parchment.jpg  used on input line 102.
 <Jane_Eyre_title_page.jpg, id=85, 82.1469pt x 132.7359pt>
 File: Jane_Eyre_title_page.jpg Graphic file (type jpg)
 <use Jane_Eyre_title_page.jpg>
-Package pdftex.def Info: Jane_Eyre_title_page.jpg  used on input line 161.
+Package pdftex.def Info: Jane_Eyre_title_page.jpg  used on input line 165.
 (pdftex.def)             Requested size: 98.57576pt x 159.28227pt.
 <JeanRhys_WideSargassoSea.jpg, id=87, 191.9672pt x 291.33844pt>
 File: JeanRhys_WideSargassoSea.jpg Graphic file (type jpg)
 <use JeanRhys_WideSargassoSea.jpg>
-Package pdftex.def Info: JeanRhys_WideSargassoSea.jpg  used on input line 161.
+Package pdftex.def Info: JeanRhys_WideSargassoSea.jpg  used on input line 165.
 (pdftex.def)             Requested size: 105.58228pt x 160.23663pt.
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 161.
+Package pdftex.def Info: parchment.jpg  used on input line 165.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [3
 
  </home/cantabile/Documents/repos/mathematistry-talk/Jane_Eyre_title_page.jpg> </home/cantabile/Documents/repos/mathematistry-talk/JeanRhys_WideSargassoSea.jpg>]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 173.
+Package pdftex.def Info: parchment.jpg  used on input line 177.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [4
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 194.
+Package pdftex.def Info: parchment.jpg  used on input line 198.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [5
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 211.
+Package pdftex.def Info: parchment.jpg  used on input line 215.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [6
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 268.
+Package pdftex.def Info: parchment.jpg  used on input line 272.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [7
 
 ] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 274.
+Package pdftex.def Info: parchment.jpg  used on input line 278.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [8
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 326.
+Package pdftex.def Info: parchment.jpg  used on input line 330.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [9
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 340.
+Package pdftex.def Info: parchment.jpg  used on input line 344.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [10
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 400.
+Package pdftex.def Info: parchment.jpg  used on input line 404.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [11
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 415.
+Package pdftex.def Info: parchment.jpg  used on input line 419.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [12
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 426.
+Package pdftex.def Info: parchment.jpg  used on input line 430.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [13
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 490.
+Package pdftex.def Info: parchment.jpg  used on input line 494.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [14
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 504.
+Package pdftex.def Info: parchment.jpg  used on input line 508.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [15
 
 ] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 507.
+Package pdftex.def Info: parchment.jpg  used on input line 511.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [16
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 527.
+Package pdftex.def Info: parchment.jpg  used on input line 531.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [17
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 545.
+Package pdftex.def Info: parchment.jpg  used on input line 549.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [18
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 562.
+Package pdftex.def Info: parchment.jpg  used on input line 566.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [19
 
-] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+]
+LaTeX Font Info:    Try loading font information for U+euf on input line 581.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 565.
+Package pdftex.def Info: parchment.jpg  used on input line 581.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [20
 
-] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 567.
+Package pdftex.def Info: parchment.jpg  used on input line 591.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [21
 
-] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 569.
+Package pdftex.def Info: parchment.jpg  used on input line 619.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [22
 
 ] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 571.
+Package pdftex.def Info: parchment.jpg  used on input line 623.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [23
 
 ] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 573.
+Package pdftex.def Info: parchment.jpg  used on input line 625.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [24
 
-]
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 580.
+Package pdftex.def Info: parchment.jpg  used on input line 627.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
  [25
+
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 629.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [26
+
+] (/home/cantabile/Documents/repos/mathematistry-talk/main.toc)
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 631.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [27
 
 ]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 588.
+Package pdftex.def Info: parchment.jpg  used on input line 638.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
- [26
+ [28
+
+]
+File: parchment.jpg Graphic file (type jpg)
+<use parchment.jpg>
+Package pdftex.def Info: parchment.jpg  used on input line 646.
+(pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
+ [29
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 File: parchment.jpg Graphic file (type jpg)
 <use parchment.jpg>
-Package pdftex.def Info: parchment.jpg  used on input line 588.
+Package pdftex.def Info: parchment.jpg  used on input line 646.
 (pdftex.def)             Requested size: 364.2035pt x 273.16096pt.
- [27
+ [30
 
 
 ]
@@ -2017,12 +2086,11 @@ Package pdftex.def Info: parchment.jpg  used on input line 588.
 \tf@snm=\write10
 \openout10 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
-
-(/home/cantabile/Documents/repos/mathematistry-talk/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 648.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 648.
+ (/home/cantabile/Documents/repos/mathematistry-talk/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 648.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 648.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FE33F37D62DA6DFAFC79698B2F3C8FC5;593.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2030,19 +2098,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40285 strings out of 492982
- 808530 string characters out of 6134896
- 1238620 words of memory out of 5000000
- 43082 multiletter control sequences out of 15000+600000
- 541702 words of font info for 67 fonts, out of 8000000 for 9000
+ 40828 strings out of 492982
+ 817352 string characters out of 6134896
+ 1256425 words of memory out of 5000000
+ 43604 multiletter control sequences out of 15000+600000
+ 542646 words of font info for 71 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,16n,96p,10377b,2262s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/musixtex-fonts/musix11.pfb>
-Output written on /home/cantabile/Documents/repos/mathematistry-talk/main.pdf (27 pages, 357242 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/musixtex-fonts/musix11.pfb>
+Output written on /home/cantabile/Documents/repos/mathematistry-talk/main.pdf (30 pages, 377318 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

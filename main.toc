@@ -7,12 +7,12 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{The order of mathematistry}{16}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{A question of cardinality}{20}{0}{4}
+\beamer@sectionintoc {4}{A question of cardinality}{23}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{A question of density}{21}{0}{5}
+\beamer@sectionintoc {5}{A question of density}{24}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{The utility of heuristics}{22}{0}{6}
+\beamer@sectionintoc {6}{The utility of heuristics}{25}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Other queerings}{23}{0}{7}
+\beamer@sectionintoc {7}{Other queerings}{26}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Scientific ways to discuss how to science}{24}{0}{8}
+\beamer@sectionintoc {8}{Scientific ways to discuss how to science}{27}{0}{8}
