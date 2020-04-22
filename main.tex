@@ -50,6 +50,7 @@
 \usepackage{tikz}
 \usetikzlibrary[shapes,arrows]
 \tikzset{hassenode/.style={circle,draw}}
+\usepackage{adjustbox} % resize by height
 
 % code macros
 \newcommand{\code}[1]{\texttt{#1}}
@@ -622,20 +623,336 @@ as the \textbf{order of mathematistry} under heurisic $h \in \mathbb H$.
 %%% Section cardinality
 \section{A question of cardinality}
 
+\begin{frame}{A question of cardinality}
+
+\begin{adjustbox}{max totalsize={.9\textwidth}{.9\textheight},center}
+\begin{tikzpicture}
+%%%  nodes
+
+% hasse nodes
+\node [circle, draw, gray, label=above right:{$[[\top]]_h$}] (a) at (0,0) {};
+\node [circle, draw, gray, label=below right:{$[[\bot]]_h$}] (b) at (0,-8) {};
+\node [circle, draw, gray, label=below right:{$[[\varnothing]]_h$}] (c) at (0, -10) {};
+
+% heuristic nodes
+\node  (h1) at (-4,-4) {};
+\node [label=right:\textcolor{gray}{$\Tilde h$}] (h2) at (4, -4) {};
+\node [circle, draw, gray] (w) at (-1,-3.1) {};
+
+% representative nodes
+
+% set label nodes
+\node at (2.5, -7) {\textcolor{gray}{\footnotesize{$\langle C \times M ; \to \rangle_h$}}};
+\node at (1.8, -6) {\textcolor{gray}{\footnotesize{$\langle \mathfrak X; \to \rangle_h$}}};
+\node at (0, -2) {\footnotesize{$\langle \mathfrak P; \to \rangle_h$}};
+\node at (-.8, -4) {\footnotesize{$\langle \mathfrak W; \to \rangle_h$}};
+
+%%% edges
+
+% underlying lattice
+\draw (c) [gray] to (b);
+
+% C x M
+\draw (a) [out=-15, in=15, dotted, gray] to (b);
+\draw (a) [out=-165, in=165, dotted, gray] to (b);
+
+% X
+\draw (a) [out=-45, in=45, densely dotted, gray] to (b);
+\draw (a) [out=-135, in=135, densely dotted, gray] to (b);
+
+% P
+\draw (a) [
+%out=-70, in=70, 
+loosely dashed] to (b);
+\draw (a) [out=-110, in=110, loosely dashed] to (b);
+
+% W
+\draw (w) [out=-45, in=45, densely dashdotted] to (b);
+\draw (w) [out=-125, in=125, densely dashdotted] to (b);
+
+% heuristic connect
+\draw (h1) [out = 30, in = 150, loosely dotted] to (h2);
+\end{tikzpicture}
+\end{adjustbox}
+\end{frame}
+
 \section{A question of density}
+
+\begin{frame}{\large{Are there distinct differences between classes of mathematistry?}}
+ 
+\begin{adjustbox}{max totalsize={.9\textwidth}{.8\textheight},center}
+\begin{tikzpicture}
+%%%  nodes
+
+% hasse nodes
+\node [circle, draw, gray, label=above right:{$[[\top]]_h$}] (a) at (0,0) {};
+\node [circle, draw, gray, label=below right:{$[[\bot]]_h$}] (b) at (0,-8) {};
+\node [circle, draw, gray, label=below right:{$[[\varnothing]]_h$}] (c) at (0, -10) {};
+
+% heuristic nodes
+\node  (h1) at (-4,-4) {};
+\node [label=right:\textcolor{gray}{$\Tilde h$}] (h2) at (4, -4) {};
+\node [circle, draw, gray] (w) at (-1,-3.1) {};
+
+% representative nodes
+
+% set label nodes
+\node at (2.5, -7) {\textcolor{gray}{\footnotesize{$\langle C \times M ; \to \rangle_h$}}};
+\node at (1.8, -6) {\textcolor{gray}{\footnotesize{$\langle \mathfrak X; \to \rangle_h$}}};
+\node at (0, -2) {\footnotesize{$\langle \mathfrak P; \to \rangle_h$}};
+\node at (-.8, -4) {\footnotesize{$\langle \mathfrak W; \to \rangle_h$}};
+
+%%% edges
+
+% underlying lattice
+\draw (c) [gray] to (b);
+
+% C x M
+\draw (a) [out=-15, in=15, dotted, gray] to (b);
+\draw (a) [out=-165, in=165, dotted, gray] to (b);
+
+% X
+\draw (a) [out=-45, in=45, densely dotted, gray] to (b);
+\draw (a) [out=-135, in=135, densely dotted, gray] to (b);
+
+% P
+\draw (a) [
+%out=-70, in=70, 
+loosely dashed] to (b);
+\draw (a) [out=-110, in=110, loosely dashed] to (b);
+
+% W
+\draw (w) [out=-45, in=45, densely dashdotted] to (b);
+\draw (w) [out=-125, in=125, densely dashdotted] to (b);
+
+% heuristic connect
+\draw (h1) [out = 30, in = 150, loosely dotted] to (h2);
+\end{tikzpicture}
+\end{adjustbox}
+\end{frame}
+
+\begin{frame}{A question of density}
+
+\centering
+ \begin{tikzpicture}
+
+ %%%  nodes
+
+ % hasse nodes
+ %\node [circle, draw, gray, label=above right:{$[[\top]]_h$}] (a) at (0,0) {};
+ \node [circle, draw, gray, label=below right:{$[[\bot]]_h$}] (b) at (0,0) {};
+ \node [circle, draw, gray, label=below right:{$[[\varnothing]]_h$}] (c) at (0,-2) {};
+
+ \draw (b) to (c);
+
+ \end{tikzpicture}
+
+\end{frame}
 
 \section{The utility of heuristics}
 
+\begin{frame}{The limitations of heuristics}
+\begin{adjustbox}{max totalsize={.9\textwidth}{.8\textheight},center}
+\begin{tikzpicture}
+%%%  nodes
+
+% hasse nodes
+\node [circle, draw, gray, label=above right:{$[[\top]]_h$}] (a) at (0,0) {};
+\node [circle, fill=gray, draw, gray, label=below right:{$[[\bot]]_h$}] (b) at (0,-8) {};
+\node [circle, fill=gray, draw, gray, label=below right:{$[[\varnothing]]_h$}] (c) at (0, -10) {};
+
+% heuristic nodes
+\node  (h1) at (-4,-4) {};
+\node [label=right:\textcolor{gray}{$\Tilde h$}] (h2) at (4, -4) {};
+\node [circle, draw, gray] (w) at (-1,-3.1) {};
+
+% representative nodes
+
+% set label nodes
+\node at (2.5, -7) {\textcolor{gray}{\footnotesize{$\langle C \times M ; \to \rangle_h$}}};
+\node at (1.8, -6) {\textcolor{gray}{\footnotesize{$\langle \mathfrak X; \to \rangle_h$}}};
+\node at (0, -2) {\footnotesize{$\langle \mathfrak P; \to \rangle_h$}};
+\node at (-.8, -4) {\footnotesize{$\langle \mathfrak W; \to \rangle_h$}};
+
+%%% edges
+
+% underlying lattice
+\draw (c) [gray] to (b);
+
+% C x M
+\draw (a) [out=-15, in=15, dotted, gray] to (b);
+\draw (a) [out=-165, in=165, dotted, gray] to (b);
+
+% X
+\draw (a) [out=-45, in=45, densely dotted, gray] to (b);
+\draw (a) [out=-135, in=135, densely dotted, gray] to (b);
+
+% P
+\draw (a) [
+%out=-70, in=70, 
+loosely dashed] to (b);
+\draw (a) [out=-110, in=110, loosely dashed] to (b);
+
+% W
+\draw (w) [out=-45, in=45, densely dashdotted] to (b);
+\draw (w) [out=-125, in=125, densely dashdotted] to (b);
+
+% heuristic connect
+\draw (h1) [out = 30, in = 150, loosely dotted] to (h2);
+\end{tikzpicture}
+\end{adjustbox}    
+    
+    
+\end{frame}
+
+\begin{frame}{The order of mathematistry on statistics}
+
+\centering
+
+ \begin{tikzpicture}
+
+ %%%  nodes
+
+ % hasse nodes
+ \node [circle, draw, gray, label=below right:{$[[\top]]_h$}] (a) {};
+ \node [circle, draw, gray, below of=a, label=below right:{$[[(c,\widehat m)]]_h$}] (b) {};
+ \node [circle, draw, gray, below of=b, label=below right:{$[[c, \widetilde m]]_h$}] (c) {};
+ \node [circle, draw, gray, below of=c, label=below right:{$[[\bot]]_h$}] (d) {};
+ \node [circle, draw, gray, below of=d, label=below right:{$[[\varnothing]]_h$}] (e) {};
+
+ \draw (a) to (b);
+ \draw (b) to (c);
+ \draw (c) to (d);
+ \draw (d) to (e);
+
+ \end{tikzpicture}
+
+\end{frame}
+
+\begin{frame}{\large{The order of mathematistry on QRPs in ecological models}}
+
+\begin{adjustbox}{max totalsize={.9\textwidth}{.9\textheight},center}
+\begin{tikzpicture}%[node distance = 3cm]
+  [node distance=3cm,scale=0.65, every node/.style={transform shape}]
+
+%%%  nodes
+
+% hasse nodes
+
+% top
+\node [circle, draw, gray, label=below right:{$[[\top]]_h$}] (a) {};
+
+% next from top
+\node [circle, draw, gray, below of=a, label=above right:{$[[(c,m)]]_h$}] (b) {};
+
+% one case
+\node [circle, draw, gray, below left of=b, label=below right:{$[[(c,m(s_3))]]_h$}] (g) {};
+\node [circle, draw, gray, left of=g, label=below right:{$[[(c,m(s_2))]]_h$}] (d) {};
+\node [circle, draw, gray, left of=d, label=below right:{$[[(c,m(s_1))]]_h$}] (c) {};
+\node [circle, draw, gray, below right of=b, label=below right:{$[[(c,m(s_4))]]_h$}] (h) {};
+\node [circle, draw, gray, right of=h, label=below right:{$[[(c,m(s_5))]]_h$}] (i) {};
+\node [circle, draw, gray, right of=i, label=below right:{$[[(c,m(s_6))]]_h$}] (j) {};
+
+% two cases
+\node [below of = g] (t) {};
+\node [circle, draw, gray, below right of=t, label=below right:{$[[(c,m(s_3, s_4))]]_h$}] (m) {};
+\node [circle, draw, gray, below left of=t, label=below right:{$[[(c,m(s_2, s_3))]]_h$}] (l) {};
+\node [circle, draw, gray, left of=l, label=below right:{$[[(c,m(s_1, s_3))]]_h$}] (k) {};
+\node [right of =m] (s) {};
+
+% phantom nodes
+\node [below of=d] (n) {};
+\node [below of=c] (o) {};
+\node [below of=h] (p) {};
+\node [below of=i] (q) {};
+\node [below of=j] (r) {};
+
+% three cases
+\node[below of=l] (u) {};
+\node[below of=m] (v) {};
+\node[below of=k] (w) {};
+
+
+
+% bottom
+
+\node [below of=b] (x) {};
+\node [below of=x] (y) {};
+\node [below of=y] (zz) {};
+\node [below of=zz] (z) {};
+\node [circle, draw, gray, below of=z, label=above right:{$[[\bot]]_h$}] (e) {};
+\node [circle, draw, gray, below of=e, label=above right:{$[[\varnothing]]_h$}] (f) {};
+
+% hasse edges
+\draw [dotted] (a) to (b);
+
+% one case`
+\draw [dotted] (b) to (c);
+\draw [dotted] (b) to (d);
+\draw [dotted] (b) to (g);
+\draw [dotted] (b) to (h);
+\draw [dotted] (b) to (i);
+\draw [dotted] (b) to (j);
+
+% two cases
+\draw [dotted] (g) to (k);
+\draw [dotted] (g) to (l);
+\draw [dotted] (g) to (m);
+\draw [dotted] (g) to (s);
+
+\draw [dotted] (d) to (n);
+\draw [dotted] (c) to (o);
+\draw [dotted] (h) to (p);
+\draw [dotted] (i) to (q);
+\draw [dotted] (j) to (r);
+
+% three cases
+\draw [dotted] (l) to (u);
+\draw [dotted] (m) to (v);
+\draw [dotted] (k) to (w);
+
+
+% bottom
+\draw [dotted] (z) to (e);
+\draw [dotted] (e) to (f);
+
+\end{tikzpicture}
+\end{adjustbox}
+
+\end{frame}
+
+
+
 \section{Other queerings}
+
+\begin{frame}{Other queerings}
+
+Many other mathematical disciplines through which we might formalise metascientific questions, for example:
+
+\begin{itemize}
+    \item Category theory
+    \item Measure theory
+    \item Data science
+\end{itemize}
+
+\end{frame}
 
 \section{Scientific ways to discuss how to science}
 
+\begin{frame}{Dousing metascientific flame wars with mathematics}
+    
+Mathematics is the \emph{lingua franca} of science.
 
+\bigskip
 
-%%%% Order of Mathematistry
-\begin{frame}{The order of mathematistry}
+Mathematics provides nomenclature for discipline-agnostic metascientific discussion.
 
+\bigskip
+
+If some progress towards an informative discipline-agnostic nomenclature for metascience has been achieved, then this manuscript has achieved its aim.
+    
 \end{frame}
+
 
 %%% biblio
 
