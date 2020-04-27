@@ -38,8 +38,8 @@
 \usepackage{amssymb, amsthm, amsmath}
 
 % biblio
-\usepackage[url=false]{biblatex}
-\addbibresource{references.bib}
+\usepackage[url=true]{biblatex}
+\addbibresource{biblio.bib}
 %\renewcommand*{\bibfont}{\scriptsize}
 \renewcommand*{\bibfont}{\tiny}
 
@@ -74,8 +74,12 @@
 %\setbeamercolor*{palette quaternary}{fg=black,bg=black!10}
 
 %\setbeamercolor*{lower separation line head}{bg=orange}
-\AtBeginSection[]{\frame{\frametitle{Outline}%
-\tableofcontents[currentsection,hideothersubsections]}}%
+\AtBeginSubsection[]{\frame{\frametitle{Outline}%
+\tableofcontents[
+currentsection,
+currentsubsection,
+subsectionstyle=show/shaded/hide
+]}}%
 
 \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{parchment.jpg}}
 
@@ -95,7 +99,11 @@
 %%
 \begin{document}
 
+\begin{frame}{Math, it be like dat}
 
+Just buckle in and see what thoughts pop into your head.
+
+\end{frame}
 
 % title frame
 \begin{frame}
@@ -104,7 +112,9 @@
 
 \end{frame}
 
-\section{A value judgement is, after all, an order}
+\section{The Order of Mathematistry}
+
+\subsection{A value judgement is, after all, an order}
 
 
 \begin{frame}{Queering literature}
@@ -276,7 +286,7 @@ We will think of \textbf{mathematistry} as the measure of strength of mapping to
 
 %%%  Heuristics
 
-\section{Heuristics of mathematistry}
+\subsection{Heuristics of mathematistry}
 
 
 \begin{frame}{Heuristics of mathematistry}
@@ -394,11 +404,12 @@ A heuristic can be thought of in terms of a mapping from \(C \times M\) to some 
 
   \small{
   \[
-  h: C \times M \to \begin{cases}
-                  \{0, 1\} & \text{if \(\texttt{fpd}\) or not;}\\
-                  [0, 1] & \text{if \(\texttt{fpd}\) on a spectrum;}\\
-                  H & \text{if \(\texttt{fpd}\) otherwise}.
-              \end{cases}
+h: C \times M \to \begin{cases}
+                \{0, 1\} & \text{if heuristic categorises as effective or not;}\\
+                [0, 1] & \text{if heuristic measures efficacy on a spectrum;}\\
+                H & \text{if heuristic categorises efficacy otherwise},\\
+                \varnothing & \text{if the heuristic does not apply to the pairing.}
+            \end{cases}
   \]
   }
 
@@ -501,7 +512,7 @@ $$
 \begin{frame}{A relational operator of mathematistry}
 
 \begin{definition}\label{def:om}
-Let $(c_1, m_1) \to_h (c_2, m_2)$ if and only if $h(c_1, m_1) \leqslant h(c_2, m_2)$ under heuristic $h$ of mathematistry.
+Let $(c_1, m_1) \to_h (c_2, m_2)$ if and only if $h(c_1, m_1) \geqslant h(c_2, m_2)$ under heuristic $h$ of mathematistry.
 \end{definition}
 
 
@@ -509,7 +520,7 @@ Let $(c_1, m_1) \to_h (c_2, m_2)$ if and only if $h(c_1, m_1) \leqslant h(c_2, m
 \end{frame}
 
 
-\section{The order of mathematistry}
+\subsection{The order of mathematistry}
 
 %%% Order definition
 
@@ -621,7 +632,7 @@ as the \textbf{order of mathematistry} under heurisic $h \in \mathbb H$.
 
 
 %%% Section cardinality
-\section{A question of cardinality}
+\subsection{A question of cardinality}
 
 \begin{frame}{A question of cardinality}
 
@@ -676,7 +687,9 @@ loosely dashed] to (b);
 \end{adjustbox}
 \end{frame}
 
-\section{A question of density}
+\section{Questions of Mathematistry}
+
+\subsection{A question of density}
 
 \begin{frame}{\large{Are there distinct differences between classes of mathematistry?}}
  
@@ -749,7 +762,9 @@ loosely dashed] to (b);
 
 \end{frame}
 
-\section{The utility of heuristics}
+
+
+\subsection{The utility of heuristics}
 
 \begin{frame}{The limitations of heuristics}
 \begin{adjustbox}{max totalsize={.9\textwidth}{.8\textheight},center}
@@ -828,6 +843,20 @@ loosely dashed] to (b);
  \end{tikzpicture}
 
 \end{frame}
+
+\begin{frame}{\large{The steps in the building of an ecological model}}
+
+QRP can happen at any stage of the model building process~\cite{gould_questionable_2019}:
+
+1. Determine model.
+2. Collect data.
+3. Algorithm selection.
+4. Model predictions.
+5. Model assessment.
+6. Submit for publication or not.
+
+\end{frame}
+
 
 \begin{frame}{\large{The order of mathematistry on QRPs in ecological models}}
 
@@ -923,7 +952,7 @@ loosely dashed] to (b);
 
 
 
-\section{Other queerings}
+\subsection{Other queerings}
 
 \begin{frame}{Other queerings}
 
@@ -939,7 +968,7 @@ Other mathematical disciplines through which we might formalise metascientific q
 
 \end{frame}
 
-\section{Scientific ways to discuss how to science}
+\subsection{Scientific ways to discuss how to science}
 
 \begin{frame}{Dousing metascientific flame wars with mathematics}
     
@@ -951,14 +980,14 @@ Mathematics provides nomenclature for discipline-agnostic metascientific discuss
 
 \bigskip
 
-If some progress towards an informative discipline-agnostic nomenclature for metascience has been achieved, then this manuscript has achieved its aim.
+If this contributes to the development of an informative discipline-agnostic nomenclature for metascience, then this manuscript has achieved its aim.
     
 \end{frame}
 
 
 %%% biblio
 
-\section*{References}
+\subsection*{References}
 
 \begin{frame}[allowframebreaks]{References}
 \printbibliography
